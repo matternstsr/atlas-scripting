@@ -5,7 +5,7 @@ input = ARGV[0]
 #!/usr/bin/env ruby
 # Regular expression to match 'hb' followed by one or more 't's and ending with 'n'
 # if input.match?(/^hb(t+)n$/)
-if input.match?(/^hbtttn$/)
+if input.match?(/^hbttn$/)
 # Print the exact match found (i.e., the whole input string)
   puts input
 else
