@@ -1,4 +1,12 @@
 #!/usr/bin/env ruby
 
-# Take in the first argument from the command line
+# Take the argument passed to the script
 input = ARGV[0]
+# Regular expression to match 'hb' followed by one or more 't's and ending with 'n'
+if input.match?(/^hb(t*)n$/)
+# Print the exact match found (i.e., the whole input string)
+  puts input
+else
+# If no match, print nothing 
+  puts ""
+end

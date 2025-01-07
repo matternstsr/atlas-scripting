@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-# Take in the first argument from the command line
+# Take the argument passed to the script
 input = ARGV[0]
