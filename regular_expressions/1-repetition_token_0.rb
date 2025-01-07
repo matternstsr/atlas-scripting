@@ -3,6 +3,10 @@
 # Take the argument passed to the script
 input = ARGV[0]
 # Regular expression to match 'hb' followed by one or more 't's and ending with 'n'
-matches = input.scan(/hb(t+)n/)
-# Print the matched portion of the string (or nothing if no match)
-puts matches.join
+if input.match?(/hb(t+)n/)
+  # Print nothing if a match is found
+  puts ""
+else
+  # If no match, print the original string (or nothing)
+  puts ""
+end
