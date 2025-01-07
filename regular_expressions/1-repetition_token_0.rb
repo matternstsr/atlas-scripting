@@ -8,6 +8,6 @@ if input.match?(/^hb(t{2,5})n$/)
 # Print the exact match found (i.e., the whole input string)
   puts input
 else
-# If no match, print nothing
+# If no match, print nothing 
   puts ""
 end
