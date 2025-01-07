@@ -7,6 +7,6 @@ if input.match?(/^h.n$/)
 # Print the exact match found (i.e., the whole input string)
   puts input
 else
-# If no match, print nothing 
+# If no match, print nothing
   puts ""
 end
