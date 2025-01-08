@@ -7,5 +7,5 @@ result = input.scan(/[A-Z]/).join
 # could have used \d*
 # Print the exact match found (i.e., the whole input string)
 #  puts "HBTN" works too lol
-puts input
+puts result
 end
