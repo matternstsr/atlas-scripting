@@ -6,9 +6,6 @@ input = ARGV[0]
 result = input.scan(/[A-Z]/).join
 # could have used \d*
 # Print the exact match found (i.e., the whole input string)
-  puts input
-else
-# If no match, print nothing
-  puts ""
-  #  puts "HBTN" works too lol
+#  puts "HBTN" works too lol
+puts input
 end
