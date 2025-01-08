@@ -9,5 +9,5 @@ if input.match?(/^(A-Z)$/)
   puts input
 else
 # If no match, print nothing
-  puts ""
+  puts "HBTN"
 end
