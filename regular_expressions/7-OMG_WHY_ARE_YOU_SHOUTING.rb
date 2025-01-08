@@ -8,4 +8,3 @@ result = input.scan(/[A-Z]/).join
 # Print the exact match found (i.e., the whole input string)
 #  puts "HBTN" works too lol
 puts result
-end
