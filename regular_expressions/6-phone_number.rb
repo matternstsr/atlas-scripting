@@ -4,6 +4,7 @@
 input = ARGV[0]
 # Regular expression to match 'hb' followed by one or more 't's and ending with 'n'
 if input.match?(/^.{10}$/)
+# could have used \d*
 # Print the exact match found (i.e., the whole input string)
   puts input
 else
