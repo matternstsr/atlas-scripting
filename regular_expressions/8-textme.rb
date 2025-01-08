@@ -14,7 +14,7 @@ if matches
   sender = matches[1]
   receiver = matches[2]
   flags = matches[3]
-  # Output the formatted result
+  # Output the formatted result 
   puts "#{sender},#{receiver},#{flags}"
 else
   puts "No matches."
